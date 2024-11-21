@@ -1,3 +1,55 @@
+//Exercise2
+const users = ["John", "William", "David", "Jenny", "Hannah"];
+
+
+const userList = `User list: ${users.join(', ')}`;
+
+// Print the result to the console
+console.log(userList);
+
+
+
+const users = ["John", "William", "David", "Jenny", "Hannah"];
+
+// Get the total number of users
+const totalUsers = users.length;
+
+// Print the output
+console.log(`There are ${totalUsers} users on the list.`);
+
+
+const users = ["Hannah", "William", "David", "Jenny", "John"];
+const userList = `User list: ${users.join(', ')}`;
+
+// Print the result to the console
+console.log(userList);
+
+
+
+const users = ["Hannah", "William", "David", "Jenny", "John"];
+// Get the total number of users
+const totalUsers = users.length;
+
+// Print the output
+console.log(`There are ${totalUsers} users on the list.`);
+
+
+
+const users = ["Hannah", "William", "David", "Jenny", "John", "Finn"];
+const userList = `User list: ${users.join(', ')}`;
+
+// Print the result to the console
+console.log(userList);
+
+const users = ["Hannah", "William", "David", "Jenny", "John", "Finn"];
+// Get the total number of users
+const totalUsers = users.length;
+
+// Print the output
+console.log(`There are ${totalUsers} users on the list.`);
+
+
+
 const select = document.querySelector("select")
 const para = document.querySelector("p")
 select.addEventListener("change", setWeather)

@@ -1,10 +1,20 @@
+//EXERCISE1
 function lastLetter(str) {
-    return str[str.length - 1]; // Return the last character
+    return str[str.length - 1]; 
 }
 
-// Example usage
-console.log(lastLetter("helloworld")); // Output: "d"
+// Return output
+console.log(lastLetter("helloworld")); 
 
+
+//EXERCISE2
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase(); // Capitalize first letter and lowercase the rest
+}
+
+// Return output with example
+const result = capitalize("helLOWorLD");
+console.log(result); 
 
 // hello.js 
 //console.log('Hello World!')

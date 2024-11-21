@@ -1,3 +1,21 @@
+const fruits = ["apple", "orange", "banana", "mango"];
+console.log(fruits);
+
+
+// Capitalize function
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase(); // Capitalize first letter and lowercase the rest
+}
+
+// Capitalize all elements in the fruits array
+for (let i = 0; i < fruits.length; i++) {
+    fruits[i] = capitalize(fruits[i]);
+}
+
+// Print the updated fruits array
+console.log(fruits);
+
+
 // Function to add 7 
 //function add7(number) {
 //    return number + 7;
